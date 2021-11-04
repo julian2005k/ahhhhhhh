@@ -1,0 +1,41 @@
+
+body{
+    margin: 0;
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(230, 218, 118);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .nav1 {
+    float: left;
+  }
+  
+.nav1 , .navlink {
+    display: block;
+    padding: 8px;
+    background-color: rgb(233, 215, 114);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    
+}
+.nav1 :hover {
+    background-color: rgba(201, 179, 83, 0.562);
+}
+#active {
+    background-color: rgba(201, 179, 83, 0.562);
+}
+#about {
+    float: right;
+}
+h1 {
+    color: rgb(233, 215, 114);
+}
